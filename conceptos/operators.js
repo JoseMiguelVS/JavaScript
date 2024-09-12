@@ -37,4 +37,4 @@ console.log( 10 !== 3);
 //Operadores logicos
 console.log(true && true); //and
 console.log(true || true);  //or
-console.log(!true); // not
+console.log(!true); // not 
