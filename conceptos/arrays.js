@@ -1,5 +1,5 @@
 //coleccion ordenada de datos
-const myArray = new Array(1,2,3,4,5);
+const myArray = new Array(1, 2, 3, 4, 5);
 console.log(myArray);
 const otherArray = [1, 2, 3, 4, 5];
 console.log(otherArray);
@@ -42,7 +42,7 @@ queue.shift();
 queue.shift();
 console.log(queue);
 
-const numbers = [12,4,23,54,32,-5]
+const numbers = [12, 4, 23, 54, 32, -5]
 console.log(numbers)
 console.log(numbers.reverse()); // ordena los numeros al reves
 console.log(numbers.sort()); // viceversa los numeros de menor a mayor
@@ -53,13 +53,13 @@ console.log(letters.reverse().join(''));
 console.log(letters.sort());
 
 //Iterar Arrays
-const pairs= [2,4,6,8,10,12];
+const pairs = [2, 4, 6, 8, 10, 12];
 
 //cliclo for
-for(let i=0; i<pairs.length; i++){
-    console.log(`elemento ${ i }: ${ pairs[i]}`)
+for (let i = 0; i < pairs.length; i++) {
+    console.log(`elemento ${i}: ${pairs[i]}`)
 }
 //cliclo for of
-for(let pair of pairs){
+for (let pair of pairs) {
     console.log(pair)
 }

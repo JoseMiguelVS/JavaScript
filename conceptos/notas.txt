@@ -1,5 +1,6 @@
 git init
 git add .
 git commit "name";
+git push -u origin main
 
 node concepts/carpeta
