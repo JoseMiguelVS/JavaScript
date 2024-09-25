@@ -48,8 +48,8 @@ console.log(numbers.reverse()); // ordena los numeros al reves
 console.log(numbers.sort()); // viceversa los numeros de menor a mayor
 
 const myName = 'Jose Miguel';
-const letters = myName.split('');
-console.log(letters.reverse().join(''));
+const letters = myName.split(''); //Separa las letras
+console.log(letters.reverse().join('')); //las pnes al reves y las junta
 console.log(letters.sort());
 
 //Iterar Arrays
